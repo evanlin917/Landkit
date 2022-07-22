@@ -1,0 +1,1112 @@
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-container {
+    max-width: 1024px;
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-container ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav-container ul li {
+    margin-right: 40px;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav-container ul li a {
+    text-decoration: none;
+    color: gray;
+}
+
+.buyNowButton {
+    background-color: rgb(51,94,234);
+    color: white;
+    border: none;
+    height: 50px;
+    width: 100px;
+    margin-right: 25px;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.pagesButton {
+    background-color: rgb(51,94,234);
+    color: white;
+    border: none;
+    height: 65px;
+    width: 200px;
+    border-radius: 5px;
+    font-size: 17px;
+    margin-right: 5px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.documentationButton {
+    background-color: rgb(234, 238, 253);
+    color: rgb(51,94,234);
+    border: none;
+    height: 65px;
+    width: 175px;
+    border-radius: 5px;
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.introContainer {
+    max-width: 1024px;
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 50px;
+}
+
+.introText {
+    column-start: 1;
+    column-end: 2;
+    margin-top: 100px;
+    margin: auto;
+}
+
+.introText h1 {
+    color: black;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.landkit {
+    color: rgb(51,94,234);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.introText p {
+    color: rgb(155, 179, 198);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.introContainer img {
+    width: 100%;
+    height: auto;
+}
+
+.descriptionContainer {
+    margin-top: 75px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1024px;
+    width: 100%;
+    margin-bottom: 75px;
+    margin: auto;
+    border-bottom: 3px solid rgb(251, 252, 254);
+}
+
+.developIcon ul {
+    display: flex;
+    list-style: none;
+    column-start: 1;
+    column-end: 2;
+}
+
+.designIcon ul {
+    display: flex;
+    list-style: none;
+    column-start: 2;
+    column-end: 3;
+}
+
+.documentIcon ul {
+    display: flex;
+    list-style: none;
+    column-start: 3;
+    column-end: 4;
+}
+
+.developIcon ul li {
+    margin-right: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.designIcon ul li {
+    margin-right: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.documentIcon ul li {
+    margin-right: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.developIcon svg {
+    color: blue;
+}
+
+.designIcon svg {
+    color: blue;
+}
+
+.documentIcon svg {
+    color: blue;
+}
+
+.developIcon h3 {
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.designIcon h3 {
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.documentIcon h3 {
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.developIcon p {
+    color: rgb(155, 179, 198);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.designIcon p {
+    color: rgb(155, 179, 198);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.documentIcon p {
+    color: rgb(155, 179, 198);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.companies {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 1024px;
+    padding: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin: auto;
+}
+
+.companies svg {
+    color: gray;
+}
+
+.featuresContainerBackground {
+    margin: auto;
+    width: 100%;
+    background-color: rgb(251, 252, 254);
+}
+
+.featuresContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 1024px;
+    width: 100%;
+    margin: auto;
+    background-color: rgb(251, 252, 254);
+}
+
+.sampleForm {
+    column-start: 1;
+    column-end: 2;
+    row-start: 1;
+    row-end: 2;
+    background-color: white;
+    border: 40px solid rgb(251, 252, 254);
+    height: auto;
+    border-radius: 10px;
+}
+
+.sampleForm img {
+    width: 100%;
+    height: auto;
+}
+
+.sampleForm input, text {
+    color: rgb(155, 179, 198);
+    outline: none;
+    font-family: 'Open Sans', sans-serif;
+    border: none;
+    font-size: 17px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+#name {
+    padding-top: 40px;
+}
+
+.formBorder {
+    column-start: 1;
+    column-end: 2;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.downloadSample {
+    height: 40px;
+    width: 400px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(66, 186, 150);
+    align-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.features {
+    column-start: 2;
+    column-end: 3;
+    row-start: 1;
+    row-end: 2;
+    padding: 50px 40px;
+    height: auto;
+}
+
+.features h1 {
+    color: rgb(22, 28, 45);
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.greenDevText {
+    color: rgb(66, 186, 150);
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+.features p {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(159, 174, 198);
+}
+
+.featuresBullets {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.featuresBullets ul {
+    list-style: none;
+}
+
+.updates {
+    display: flex;
+    align-items: center;
+}
+
+.updates svg {
+    color: green;
+    padding-right: 10px;
+}
+
+.updates p {
+    color: rgb(100, 198, 169);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.tech {
+    display: flex;
+    align-items: center;
+}
+
+.tech svg {
+    color: green;
+    padding-right: 10px;
+}
+
+.tech p {
+    color: rgb(100, 198, 169);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.assets {
+    display: flex;
+    align-items: center;
+}
+
+.assets svg {
+    color: green;
+    padding-right: 10px;
+}
+
+.assets p {
+    color: rgb(100, 198, 169);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.integration {
+    display: flex;
+    align-items: center;
+}
+
+.integration svg {
+    color: green;
+    padding-right: 10px;
+}
+
+.integration p {
+    color: rgb(100, 198, 169);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bootstrapContainerBackground {
+    width: 100%;
+    margin: auto;
+    background-color: rgb(251, 252, 254);
+}
+
+.bootstrapContainer {
+    max-width: 1024px;
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: rgb(251, 252, 254);
+}
+
+.bootstrapContainer img {
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+}
+
+.bootstrapText {
+    column-start: 1;
+    column-end: 2;
+    padding-left: 50px;
+}
+
+.bootstrapText h1 {
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bootstrap {
+    color: rgb(52, 85, 235);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bootstrapText p {
+    color: rgb(175, 190, 209);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+}
+
+.bootstrapFeatures {
+    display: grid;
+}
+
+.bootstrapFeatures ul {
+    list-style: none;
+    justify-content: space-between;
+}
+
+.beginningBullet {
+    display: flex;
+    align-items: flex-start;
+}
+
+.beginningBullet svg {
+    padding-right: 20px;
+    max-width: 75px;
+    max-height: 75px;
+    width: 70px;
+    height: 70px;
+    padding-top: 10px;
+}
+
+.beginningBullet p {
+    padding-right: 5px;
+}
+
+.bootstrapBeginning {
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.understandingBullet {
+    display: flex;
+    align-items: flex-start;
+}
+
+.understandingBullet svg {
+    padding-right: 20px;
+    max-width: 75px;
+    max-height: 75px;
+    width: 70px;
+    height: 70px;
+    padding-top: 10px;
+}
+
+.understandingBullet p {
+    padding-right: 5px;
+}
+
+.bootstrapUnderstanding {
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.customers {
+    margin: auto;
+    max-width: 1024px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;    
+}
+
+.customers h1 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.customers p {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: rgb(175, 190, 209);
+}
+
+.customerReview {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: auto;
+    max-width: 1024px;
+    width: 100%;
+    padding-bottom: 75px;
+}
+
+.customerReview img {
+    width: 100%;
+    height: auto;
+}
+
+.review {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+}
+
+.review svg {
+    color: red;
+    height: 25%;
+    width: 25%;
+}
+
+.review p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+.dave {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: rgb(175, 190, 209);
+}
+
+.business {
+    margin: auto;
+    max-width: 1024px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: rgb(240, 244, 248);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.business img {
+    width: 100%;
+    height: auto;
+}
+
+.businessDescription h1 {
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+}
+
+.assurance {
+    color: rgb(55, 96, 234);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.businessDescription p {
+    color: rgb(85, 106, 147);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    padding-top: 12px;
+    padding-bottom: 25px;
+    padding-right: 20px;
+}
+
+
+.stats ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.stats ul li {
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    margin-right: 40px;
+    font-size: 20px;
+}
+
+.satisfaction {
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(79, 102, 144);
+}
+
+.support {
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(79, 102, 144);
+}
+
+.sales {
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(79, 102, 144);
+}
+
+.pricingDescription {
+    margin: auto;
+    max-width: 1024px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(240, 244, 248);
+    padding-left: 35px;
+    padding-right: 35px;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 40px;
+}
+
+.pricingDescription p {
+    color: rgb(83, 104, 146);
+    padding-right: 175px;
+    padding-left: 175px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.toggle {
+    margin: auto;
+    max-width: 1024px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(240, 244, 248);
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 50px;
+}
+
+.toggle p {
+    color: rgb(125, 142, 173);
+    font-family: 'Open Sans', sans-serif;
+    margin-right: 10px;
+}
+
+.toggle svg {
+    color: gray;
+    margin-right: 10px;
+}
+
+.pricingOptions {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: auto;
+    width: 100%;
+    max-width: 1024px;
+}
+
+.standardContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 75px;
+    border: 3px solid rgb(240, 244, 248);
+}
+
+.standardContainer h1 {
+    color: black;
+    font-size: 50px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.standardContainer p {
+    color: rgb(105, 124, 160);
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.standardContainer ul {
+    list-style: none;
+}
+
+.standardContainer ul li p {
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.standardContainer ul li svg {
+    color: green;
+    padding-right: 10px;
+}
+
+.landingPages {
+    display: flex;
+    align-items: center;
+}
+
+.styledComponents {
+    display: flex;
+    align-items: center;
+}
+
+.simpleLicense {
+    display: flex;
+    align-items: center;
+}
+
+.speedyTooling {
+    display: flex;
+    align-items: center;
+}
+
+.freeSupport {
+    display: flex;
+    align-items: center;
+}
+
+.enterpriseContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border: 3px solid rgb(240, 244, 248);
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-top: 75px;
+}
+
+.enterpriseContainer p {
+    text-align: center;
+    color: rgb(79, 102, 144);
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+.standard {
+    width: 100px;
+    height: 25px;
+    border-radius: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(51, 94, 234);
+    background-color: rgb(210, 225, 250);
+    border: none;
+}
+
+.getItNow {
+    height: 50px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    border: none;
+    width: 100%;
+    background-color: rgb(32, 88, 191);
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.enterprise {
+    width: 100px;
+    height: 25px;
+    border-radius: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(51, 94, 234);
+    background-color: rgb(210, 225, 250);
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contact {
+    height: 50px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(79, 102, 144);
+    border: none;
+    width: 100%;
+    background-color: rgb(240, 244, 248);
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.faqsBackground {
+    margin: auto;
+    width: 100%;
+    background-color: #384c74;
+}
+
+.faqs {
+    margin: auto;
+    width: 100%;
+    max-width: 1024px;
+    background-color: #384c74;
+    padding-bottom: 75px;
+    padding-left: 5px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.landkitForClients {
+    display: flex;
+    align-items: flex-start;
+    margin: auto;
+    width: 100%;
+}
+
+.landkitForClients svg {
+    max-height: 75px;
+    max-width: 75px;
+    color: green;
+    padding-top: 12px;
+    padding-left: 10px;
+    padding-right: 15px;
+    height: 50px;
+    width: 50px;
+}
+
+.landkitForClientsText {
+    margin: auto;
+    width: 100%;
+    padding-right: 20px;
+}
+
+.landkitClients {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.landkitForClientsText p {
+    color: #869ab8;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.moneyBackGuarantee {
+    display: flex;
+    align-items: flex-start;
+    margin: auto;
+    width: 100%;
+}
+
+.moneyBackGuarantee svg {
+    max-height: 75px;
+    max-width: 75px;
+    color: green;
+    padding-top: 12px;
+    padding-left: 10px;
+    padding-right: 15px;
+    height: 50px;
+    width: 50px;
+}
+
+.moneyBackGuaranteeText {
+    margin: auto;
+    width: 100%;
+    padding-right: 20px;
+}
+
+.moneyBack {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.moneyBackGuaranteeText p {
+    color: #869ab8;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.gettingFreeUpdates {
+    display: flex;
+    align-items: flex-start;
+    margin: auto;
+    width: 100%;
+}
+
+.gettingFreeUpdates svg {
+    max-height: 75px;
+    max-width: 75px;
+    color: green;
+    padding-top: 12px;
+    padding-left: 10px;
+    padding-right: 15px;
+    height: 50px;
+    width: 50px;
+}
+
+.gettingFreeUpdatesText {
+    margin: auto;
+    width: 100%;
+    padding-right: 20px;
+}
+
+.freeUpdates {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.gettingFreeUpdatesText p {
+    color: #869ab8;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.cssJSComponents {
+    display: flex;
+    align-items: flex-start;
+    margin: auto;
+    width: 100%;
+}
+
+.cssJSComponents svg {
+    max-height: 75px;
+    max-width: 75px;
+    color: green;
+    padding-top: 12px;
+    padding-left: 10px;
+    padding-right: 15px;
+    height: 50px;
+    width: 50px;
+}
+
+.cssJSComponentsText {
+    margin: auto;
+    width: 100%;
+    padding-right: 20px;
+}
+
+.railsReactLaravel {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.cssJSComponents p {
+    color: #869ab8;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.closing {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    padding-left: 2.5px;
+    padding-right: 2.5px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #384c74;
+    padding-bottom: 50px;
+}
+
+.getStarted {
+    border: none;
+    border-radius: 50px;
+    color: #506690;
+    background-color: rgba(80, 102, 144, 0.1);
+    font-family: 'Open Sans', sans-serif;
+    width: 100px;
+    height: 25px;
+}
+
+.closing h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.closing p {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #d9e2ef;
+    padding-bottom: 40px;
+}
+
+.buyItNow {
+    border-radius: 5px;
+    height: 50px;
+    width: 120px;
+    border: none;
+    background-color: #42ba96;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.footerContainer {
+    margin: auto;
+    max-width: 1024px;
+    width: 100;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-top: 100px;
+}
+
+.landkitKey img {
+    padding-top: 20px;
+}
+
+.landkitKey p {
+    color: #506690;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.socialMedia {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    max-width: 204.8px;
+}
+
+.socialMedia svg {
+    color: gray;
+    max-width: 20px;
+    max-height: 20px;
+    width: 20px;
+    height: 20px;
+}
+
+.products ul {
+    list-style: none;
+}
+
+.products ul li {
+    color: #869ab8;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.productsText {
+    color: #506690;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.products ul li a {
+    text-decoration: none;
+    color: #869ab8;
+}
+
+.services ul {
+    list-style: none;
+}
+
+.services ul li {
+    color: #869ab8;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.servicesText {
+    color: #506690;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.services ul li a {
+    text-decoration: none;
+    color: #869ab8;
+}
+
+.connect ul {
+    list-style: none;
+}
+
+.connect ul li {
+    color: #869ab8;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.connectText {
+    color: #506690;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.connect ul li a {
+    text-decoration: none;
+    color: #869ab8;
+}
+
+.legal ul {
+    list-style: none;
+}
+
+.legal ul li {
+    color: #869ab8;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.legalText {
+    color: #506690;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.legal ul li a {
+    text-decoration: none;
+    color: #869ab8;
+}
